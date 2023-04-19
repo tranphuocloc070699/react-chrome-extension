@@ -1,0 +1,22 @@
+{
+  "name": "translator",
+  "version": "1.0.0",
+  "description": "translator google extension",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack",
+    "watch":"webpack --watch --progress --config webpack.config.js"
+  },
+  "author": "",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-loader": "^9.4.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
